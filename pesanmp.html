@@ -1,0 +1,109 @@
+<html>
+<html>
+<head>
+	<title><b> Pesanan pembeli : </b></title>
+</head>
+<body>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+    .utama {
+  max-width: 1080px;
+  margin: 20px;
+  background-color: white;
+  padding: 15px;
+  overflow: hidden;
+}
+
+        header {
+  background-color: rgb(146, 177, 223);
+  color: white;
+  width: 100vw;
+  height: 8vh;
+  padding: 20px;
+}
+
+        nav {
+  width: 100vw;
+  height: 8vh;
+  background-color: rgb(180, 195, 240);
+}
+
+ul {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(35, 60, 199);
+}
+
+    </style>
+
+    <div class="utama">
+        <header>
+            <h1>Toko baju Mewah</h1>
+            <p>Harga Sangat Terjangkau</p>
+        </header>
+
+    <nav class="navigasi">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="tugaswebmp.html">Menu</a></li>
+          <li><a href="https://wa.me/085609485491">Kontak</a></li>
+        </ul>
+      </nav>
+	<form>
+    <br>
+    <h2>Silahkan Pesan Menu</h2>
+    <br>
+	<table>
+		<tr>
+			<td>Nama</td>
+			<td>:</td>
+			<td><input type="text" name="nama"></td>
+		</tr>
+		<tr>
+			<td>Nomor Hp</td>
+			<td>:</td>
+			<td><input type="text" name="nomor"></td> 
+		</tr>
+        <tr>
+			<td>Alamat</td>
+			<td>:</td>
+			<td><input type="text" name="nomor"></td> 
+		</tr>
+		<tr>
+            <td>Silahkan Masukkan Pesanan Anda</td>
+            <td>:</td>
+            <td>
+              <textarea name="komentar" cols="30" rows="5"> </textarea>
+            </td>
+          </tr>
+			
+			<td>Pembayaran </td>
+			<td>:</td>
+			<td><select name="Kota">
+				<option value="Cash">Cash</option>
+				<option value="Debit">Debit</option>
+				<option value="QR">QR</option></td>
+		</tr>
+		<tr>
+			<td><input type="submit" value="Kirim" /></td>
+		</tr>
+		
+	</form>
+	</table>
+</body>
+</html>			
